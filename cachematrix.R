@@ -3,7 +3,7 @@
 #   (1) makeCacheMatrix: a function that creates a list of sub-functions: set, get, setinv and getinv
 #   (2) input of makeCacheMatrix is a matrix
 #   (3) cacheSolve: a function that computes the inverse of the special "matrix" returned by makeCacheMatrix above
-#   (4) please see the last section of this program to test run it
+#   (4) please see the last section of this program for a test run
 # ------------------------------------------------------------------------
 makeCacheMatrix <- function(x = matrix()){
   m <- NULL
